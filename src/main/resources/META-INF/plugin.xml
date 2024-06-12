@@ -1,0 +1,44 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.helloworld.ReadingCode</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>ReadingCode</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="helloworldyong9@gmail.com" url="https://github.com/helloworldyuhaiyang">Git</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <h1>What does the plugin do?</h1>
+    <p>Do you want to devote yourself entirely to studying, rather than constantly watching your boss?</p>
+    <h1>Features</h1>
+    <ul>
+      <li>Open browser in ide,then read books, read  news, event play games.</li>
+      <li>Fake you are reading code.</li>
+    </ul>
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- 注册你的服务 -->
+        <applicationService serviceInterface="com.helloworld.readingcode.MyApplicationService" serviceImplementation="com.helloworld.readingcode.MyApplicationServiceImpl"/>
+        <!-- 注册工具窗口 -->
+        <toolWindow id="ReadingCodeBrowser"
+                    factoryClass="com.helloworld.readingcode.BrowserWindow"
+                    anchor="right"
+                    canCloseContents="false"
+                    icon="/icons/gbrowser.svg"/>
+    </extensions>
+    <actions>
+    </actions>
+</idea-plugin>

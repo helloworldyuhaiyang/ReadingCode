@@ -1,0 +1,15 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+     width="13" height="13" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="258" x2="512" y2="258" gradientTransform="matrix(1 0 0 -1 0 514)">
+    <stop offset="0" style="stop-color:#00F2FE"/>
+    <stop offset="0.021" style="stop-color:#03EFFE"/>
+    <stop offset="0.293" style="stop-color:#24D2FE"/>
+    <stop offset="0.554" style="stop-color:#3CBDFE"/>
+    <stop offset="0.796" style="stop-color:#4AB0FE"/>
+    <stop offset="1" style="stop-color:#4FACFE"/>
+</linearGradient>
+    <path style="fill:url(#SVGID_1_);" d="M505,442.7l-99.4-99.4c28.3-34.1,45.4-77.6,45.4-125.3C451,98.8,352.2,0,229.5,0
+    S8,98.8,8,218.1s98.8,218.1,218.1,218.1c47.7,0,91.2-17.1,125.3-45.4l99.4,99.4c11,11,25.3,16.5,39.6,16.5
+    s28.6-5.5,39.6-16.5C527.1,499.9,527.1,464.8,505,442.7z M145.9,218.1h167.3c10.4,0,18.9-8.5,18.9-18.9s-8.5-18.9-18.9-18.9H145.9
+    c-10.4,0-18.9,8.5-18.9,18.9S135.5,218.1,145.9,218.1z"/>
+</svg>
